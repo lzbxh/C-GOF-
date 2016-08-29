@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB4D0DF81D3FD28C00A7A8C3 /* 迭代器模式.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB4D0DF71D3FD28C00A7A8C3 /* 迭代器模式.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BBFBFB5F1D1AEF2E007F2734 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BB2915A61D2E9C800004A136 /* 组合模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "组合模式.cpp"; sourceTree = "<group>"; };
+		BB2915A81D2EA7AB0004A136 /* 外观模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "外观模式.cpp"; sourceTree = "<group>"; };
+		BB2915AA1D2EAA090004A136 /* 享元模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "享元模式.cpp"; sourceTree = "<group>"; };
+		BB2915AF1D2EAEBB0004A136 /* 模板模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "模板模式.cpp"; sourceTree = "<group>"; };
+		BB2915B11D2EB6230004A136 /* 命令模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "命令模式.cpp"; sourceTree = "<group>"; };
+		BB4D0DF31D3FCDE400A7A8C3 /* 状态模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "状态模式.cpp"; sourceTree = "<group>"; };
+		BB4D0DF51D3FD14A00A7A8C3 /* 解释器模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "解释器模式.cpp"; sourceTree = "<group>"; };
+		BB4D0DF71D3FD28C00A7A8C3 /* 迭代器模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "迭代器模式.cpp"; sourceTree = "<group>"; };
+		BB5A9B8F1D2AB0D4007FF0B4 /* 依赖关系.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "依赖关系.cpp"; sourceTree = "<group>"; };
+		BB5A9B911D2AB1E8007FF0B4 /* 关联关系.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "关联关系.cpp"; sourceTree = "<group>"; };
+		BB60B31E1D2C087900530EA5 /* 建造者模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "建造者模式.cpp"; sourceTree = "<group>"; };
+		BB71200A1D3E7BA100134B75 /* 备忘录模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "备忘录模式.cpp"; sourceTree = "<group>"; };
+		BB71200C1D3E81AE00134B75 /* 访问者模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "访问者模式.cpp"; sourceTree = "<group>"; };
+		BB8D226B1D3D2C30009CB7A0 /* 责任链模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "责任链模式.cpp"; sourceTree = "<group>"; };
+		BB8D226D1D3D2FF5009CB7A0 /* 策略模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "策略模式.cpp"; sourceTree = "<group>"; };
+		BB8D226F1D3D369D009CB7A0 /* 中介者模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "中介者模式.cpp"; sourceTree = "<group>"; };
+		BB8D22711D3D37BC009CB7A0 /* 观察者模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "观察者模式.cpp"; sourceTree = "<group>"; };
+		BBBF344E1D1EE63600F94866 /* 代理在cocos2dx中的使用.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "代理在cocos2dx中的使用.cpp"; sourceTree = "<group>"; };
+		BBDB82A61D1D8F6D00CC4873 /* 饿汉单例模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "饿汉单例模式.cpp"; sourceTree = "<group>"; };
+		BBDB82A91D1D97DF00CC4873 /* 简单工厂模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "简单工厂模式.cpp"; sourceTree = "<group>"; };
+		BBDB82AB1D1D9D9700CC4873 /* 工厂模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "工厂模式.cpp"; sourceTree = "<group>"; };
+		BBDB82AD1D1E8A9F00CC4873 /* 抽象工厂模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "抽象工厂模式.cpp"; sourceTree = "<group>"; };
+		BBDB82AF1D1E90C700CC4873 /* 代理模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "代理模式.cpp"; sourceTree = "<group>"; };
+		BBDB82B11D1E97CE00CC4873 /* 类比于OC中的代理.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "类比于OC中的代理.cpp"; sourceTree = "<group>"; };
+		BBF292C41D2D4C58007D731D /* 原型模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "原型模式.cpp"; sourceTree = "<group>"; };
+		BBF292C61D2D5225007D731D /* 装饰模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "装饰模式.cpp"; sourceTree = "<group>"; };
+		BBF292C81D2D56F5007D731D /* 桥接模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "桥接模式.cpp"; sourceTree = "<group>"; };
+		BBFBFB611D1AEF2E007F2734 /* 设计模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "设计模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBFBFB6B1D1AEF4F007F2734 /* 懒汉单例模式.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "懒汉单例模式.cpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBFBFB5E1D1AEF2E007F2734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB2915AC1D2EAE660004A136 /* 结构型模式 */ = {
+			isa = PBXGroup;
+			children = (
+				BB60B31E1D2C087900530EA5 /* 建造者模式.cpp */,
+				BBF292C41D2D4C58007D731D /* 原型模式.cpp */,
+				BBF292C61D2D5225007D731D /* 装饰模式.cpp */,
+				BBF292C81D2D56F5007D731D /* 桥接模式.cpp */,
+				BB2915A61D2E9C800004A136 /* 组合模式.cpp */,
+				BB2915A81D2EA7AB0004A136 /* 外观模式.cpp */,
+				BB2915AA1D2EAA090004A136 /* 享元模式.cpp */,
+			);
+			name = "结构型模式";
+			sourceTree = "<group>";
+		};
+		BB2915AD1D2EAE820004A136 /* 创建型 */ = {
+			isa = PBXGroup;
+			children = (
+				BBFBFB6B1D1AEF4F007F2734 /* 懒汉单例模式.cpp */,
+				BBDB82A61D1D8F6D00CC4873 /* 饿汉单例模式.cpp */,
+				BBDB82A91D1D97DF00CC4873 /* 简单工厂模式.cpp */,
+				BBDB82AB1D1D9D9700CC4873 /* 工厂模式.cpp */,
+				BBDB82AD1D1E8A9F00CC4873 /* 抽象工厂模式.cpp */,
+				BBDB82AF1D1E90C700CC4873 /* 代理模式.cpp */,
+			);
+			name = "创建型";
+			sourceTree = "<group>";
+		};
+		BB2915AE1D2EAEA30004A136 /* 行为模式 */ = {
+			isa = PBXGroup;
+			children = (
+				BB2915AF1D2EAEBB0004A136 /* 模板模式.cpp */,
+				BB2915B11D2EB6230004A136 /* 命令模式.cpp */,
+				BB8D226B1D3D2C30009CB7A0 /* 责任链模式.cpp */,
+				BB8D226D1D3D2FF5009CB7A0 /* 策略模式.cpp */,
+				BB8D226F1D3D369D009CB7A0 /* 中介者模式.cpp */,
+				BB8D22711D3D37BC009CB7A0 /* 观察者模式.cpp */,
+				BB71200A1D3E7BA100134B75 /* 备忘录模式.cpp */,
+				BB71200C1D3E81AE00134B75 /* 访问者模式.cpp */,
+				BB4D0DF31D3FCDE400A7A8C3 /* 状态模式.cpp */,
+				BB4D0DF51D3FD14A00A7A8C3 /* 解释器模式.cpp */,
+				BB4D0DF71D3FD28C00A7A8C3 /* 迭代器模式.cpp */,
+			);
+			name = "行为模式";
+			sourceTree = "<group>";
+		};
+		BBFBFB581D1AEF2D007F2734 = {
+			isa = PBXGroup;
+			children = (
+				BBFBFB631D1AEF2E007F2734 /* 设计模式 */,
+				BBFBFB621D1AEF2E007F2734 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBFBFB621D1AEF2E007F2734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBFBFB611D1AEF2E007F2734 /* 设计模式 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBFBFB631D1AEF2E007F2734 /* 设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				BBDB82B11D1E97CE00CC4873 /* 类比于OC中的代理.cpp */,
+				BBBF344E1D1EE63600F94866 /* 代理在cocos2dx中的使用.cpp */,
+				BB5A9B8F1D2AB0D4007FF0B4 /* 依赖关系.cpp */,
+				BB5A9B911D2AB1E8007FF0B4 /* 关联关系.cpp */,
+				BB2915AD1D2EAE820004A136 /* 创建型 */,
+				BB2915AC1D2EAE660004A136 /* 结构型模式 */,
+				BB2915AE1D2EAEA30004A136 /* 行为模式 */,
+			);
+			path = "设计模式";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBFBFB601D1AEF2E007F2734 /* 设计模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBFBFB681D1AEF2E007F2734 /* Build configuration list for PBXNativeTarget "设计模式" */;
+			buildPhases = (
+				BBFBFB5D1D1AEF2E007F2734 /* Sources */,
+				BBFBFB5E1D1AEF2E007F2734 /* Frameworks */,
+				BBFBFB5F1D1AEF2E007F2734 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "设计模式";
+			productName = "设计模式";
+			productReference = BBFBFB611D1AEF2E007F2734 /* 设计模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBFBFB591D1AEF2D007F2734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "刘智滨";
+				TargetAttributes = {
+					BBFBFB601D1AEF2E007F2734 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BBFBFB5C1D1AEF2D007F2734 /* Build configuration list for PBXProject "设计模式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BBFBFB581D1AEF2D007F2734;
+			productRefGroup = BBFBFB621D1AEF2E007F2734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBFBFB601D1AEF2E007F2734 /* 设计模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBFBFB5D1D1AEF2E007F2734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4D0DF81D3FD28C00A7A8C3 /* 迭代器模式.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BBFBFB661D1AEF2E007F2734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BBFBFB671D1AEF2E007F2734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BBFBFB691D1AEF2E007F2734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBFBFB6A1D1AEF2E007F2734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBFBFB5C1D1AEF2D007F2734 /* Build configuration list for PBXProject "设计模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFBFB661D1AEF2E007F2734 /* Debug */,
+				BBFBFB671D1AEF2E007F2734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBFBFB681D1AEF2E007F2734 /* Build configuration list for PBXNativeTarget "设计模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFBFB691D1AEF2E007F2734 /* Debug */,
+				BBFBFB6A1D1AEF2E007F2734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBFBFB591D1AEF2D007F2734 /* Project object */;
+}
